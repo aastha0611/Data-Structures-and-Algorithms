@@ -1,7 +1,7 @@
 import java.util.*;
 
 //Maximum of all subarrays of size k in O(n)
-public class Solution {
+public class MaxSlidingWindow {
   public int[] findAllMax(int[] a, int k){
     if(a==null || k>a.length || k<0) 
       return null;
@@ -26,7 +26,7 @@ public class Solution {
   }
   
   public static void main (String[] args){
-    Solution s=new Solution();
+    MaxSlidingWindow s=new MaxSlidingWindow();
     int[] a={1, 2, 3, 1, 4, 5, 2, 3, 6};
     int[] result=s.findAllMax(a,3);
     for(Integer i:result)
