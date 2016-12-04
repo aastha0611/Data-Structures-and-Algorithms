@@ -16,6 +16,8 @@ public static class Node{
   }
   
  public int findMinDepth(Node root){
+   if(root==null)
+    return 0;
    LinkedList<Node> list=new LinkedList<Node>();
    LinkedList<Integer> count=new LinkedList<Integer>();
    list.add(root);
