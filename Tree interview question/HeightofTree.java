@@ -30,6 +30,6 @@ public class HeightofTree {
     n11.right=n10;
     HeightofTree sol=new HeightofTree();
     int height=sol.treeHeight(root);
-    System.out.println("Height: "+ (height-1));
+    System.out.println("Height: "+ (height));
   }
 }
