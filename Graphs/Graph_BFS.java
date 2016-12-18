@@ -11,7 +11,7 @@ class Graph_BFS
     private LinkedList<Integer> adj[]; //Adjacency Lists
  
     // Constructor
-    Graph(int v)
+    Graph_BFS(int v)
     {
         V = v;
         adj = new LinkedList[v];
