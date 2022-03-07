@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*Implement atoi to convert a string to an integer.
-Hint: Carefully consider all possible input cases.
+Hint: Carefully consider all possible input cases....
 */
 
   
